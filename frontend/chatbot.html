@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+
+<title>Vignan AI Assistant</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/lucide@latest"></script>
+
+</head>
+
+<body class="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100 flex flex-col">
+
+<header class="bg-white shadow-md border-b border-gray-200">
+
+<div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+
+<div class="flex items-center space-x-3">
+
+<i data-lucide="bot" class="h-8 w-8 text-blue-600"></i>
+
+<div>
+<h1 class="text-xl font-bold text-gray-900">Vignan AI Assistant</h1>
+<p class="text-sm text-gray-600">24/7 Intelligent Student Support</p>
+</div>
+
+</div>
+
+<button onclick="goHome()" class="bg-gray-100 px-4 py-2 rounded-lg">Home</button>
+
+</div>
+
+</header>
+
+
+<div class="flex-1 max-w-6xl mx-auto w-full px-4 py-6 flex flex-col">
+
+<div class="bg-white rounded-xl shadow-lg flex flex-col h-[calc(100vh-180px)]">
+
+<div id="messages" class="flex-1 overflow-y-auto p-6 space-y-4"></div>
+
+<div class="border-t border-gray-200 p-4 bg-gray-50 rounded-b-xl">
+
+<div class="mb-3 flex flex-wrap gap-2">
+
+<button onclick="quick('Tell me about admission process')" class="bg-white border px-4 py-2 rounded-lg">Admission</button>
+
+<button onclick="quick('How do I register for courses?')" class="bg-white border px-4 py-2 rounded-lg">Courses</button>
+
+<button onclick="quick('What scholarships are available?')" class="bg-white border px-4 py-2 rounded-lg">Scholarships</button>
+
+<button onclick="quick('Tell me about hostel facilities')" class="bg-white border px-4 py-2 rounded-lg">Hostel</button>
+
+<button onclick="quick('I need counseling support')" class="bg-white border px-4 py-2 rounded-lg">Counseling</button>
+
+</div>
+
+<div class="flex gap-2">
+
+<input id="userInput" class="flex-1 px-4 py-3 border rounded-lg" placeholder="Type your message">
+
+<button onclick="startVoice()" class="bg-gray-200 p-3 rounded-lg">🎤</button>
+
+<button onclick="sendMessage()" class="bg-blue-600 text-white p-3 rounded-lg">Send</button>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+<script src="voice.js"></script>
+
+<script>
+lucide.createIcons()
+</script>
+
+</body>
+</html>

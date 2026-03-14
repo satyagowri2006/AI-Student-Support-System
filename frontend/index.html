@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>AI Student Support System</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/lucide@latest"></script>
+
+</head>
+
+<body class="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
+
+<!-- HEADER -->
+
+<header class="bg-white shadow-sm sticky top-0 z-50">
+
+<div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+
+<div class="flex items-center space-x-3">
+
+<i data-lucide="graduation-cap" class="h-8 w-8 text-blue-600"></i>
+
+<div>
+<h1 class="text-xl font-bold text-gray-900">Vignan University</h1>
+<p class="text-sm text-gray-600">Student Support System</p>
+</div>
+
+</div>
+
+<button onclick="openChatbot()"
+class="flex items-center space-x-2 bg-blue-600 text-white px-6 py-2.5 rounded-lg hover:bg-blue-700 transition shadow-md">
+
+<i data-lucide="message-circle" class="h-5 w-5"></i>
+
+<span class="font-medium">AI Chatbot</span>
+
+</button>
+
+</div>
+
+</header>
+
+
+<!-- HERO -->
+
+<section class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
+
+<div class="max-w-7xl mx-auto text-center px-4">
+
+<h2 class="text-4xl md:text-5xl font-bold mb-6">
+Welcome to Vignan University
+</h2>
+
+<p class="text-lg md:text-xl text-blue-100 max-w-3xl mx-auto">
+
+A premier educational institution dedicated to excellence in teaching,
+research, and innovation with AI-powered student support.
+
+</p>
+
+</div>
+
+</section>
+<!-- About Vignan University -->
+
+<section class="py-16 bg-white">
+
+<div class="max-w-7xl mx-auto px-4 text-center">
+
+<h3 class="text-3xl font-bold text-gray-900 mb-4">
+About Vignan University
+</h3>
+
+<p class="text-lg text-gray-600 max-w-3xl mx-auto mb-10">
+
+Vignan’s Foundation for Science, Technology and Research (VFSTR) is a premier
+educational institution known for academic excellence, research innovation,
+and strong industry collaboration. The university offers modern laboratories,
+centres of excellence, and industry-driven curriculum to prepare students for
+successful careers. With world-class infrastructure, experienced faculty, and
+excellent placement records, Vignan continues to empower students with
+knowledge, skills, and leadership qualities.
+
+</p>
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+<!-- Students -->
+
+<div class="bg-blue-50 p-8 rounded-xl shadow-md">
+
+<i data-lucide="users" class="w-12 h-12 text-blue-600 mx-auto mb-4"></i>
+
+<h4 class="text-2xl font-bold text-gray-900">
+20,000+
+</h4>
+
+<p class="text-gray-700">
+Active Students
+</p>
+
+</div>
+
+
+<!-- Faculty -->
+
+<div class="bg-green-50 p-8 rounded-xl shadow-md">
+
+<i data-lucide="award" class="w-12 h-12 text-green-600 mx-auto mb-4"></i>
+
+<h4 class="text-2xl font-bold text-gray-900">
+500+
+</h4>
+
+<p class="text-gray-700">
+Expert Faculty
+</p>
+
+</div>
+
+
+<!-- Accreditation -->
+
+<div class="bg-orange-50 p-8 rounded-xl shadow-md">
+
+<i data-lucide="trophy" class="w-12 h-12 text-orange-600 mx-auto mb-4"></i>
+
+<h4 class="text-2xl font-bold text-gray-900">
+A+ Grade
+</h4>
+
+<p class="text-gray-700">
+NAAC Accreditation
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Programs & Courses -->
+
+<section class="py-16 bg-gray-50">
+
+<div class="max-w-7xl mx-auto px-4 text-center">
+
+<h3 class="text-3xl font-bold text-gray-900 mb-4">
+Programs & Courses
+</h3>
+
+<p class="text-lg text-gray-600 mb-12">
+Vignan University offers a wide range of undergraduate, postgraduate, and research programs across multiple disciplines.
+</p>
+
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+<!-- Engineering -->
+
+<div class="bg-white rounded-xl shadow-md hover:shadow-lg overflow-hidden transition">
+
+<img src="images/programs/engineering.png"
+class="w-full h-48 object-cover hover:scale-105 transition duration-500">
+
+<div class="p-6 text-left">
+
+<h4 class="text-xl font-semibold text-gray-900 mb-2">
+Engineering
+</h4>
+
+<p class="text-gray-600 mb-3">
+B.Tech programs in CSE, AI & ML, Data Science, IoT, Mechanical, Civil, Electrical and Electronics Engineering.
+</p>
+
+<span class="text-blue-600 font-medium">
+12 Specializations
+</span>
+
+</div>
+
+</div>
+
+
+<!-- Management -->
+
+<div class="bg-white rounded-xl shadow-md hover:shadow-lg overflow-hidden transition">
+
+<img src="images/programs/management.png"
+class="w-full h-48 object-cover hover:scale-105 transition duration-500">
+
+<div class="p-6 text-left">
+
+<h4 class="text-xl font-semibold text-gray-900 mb-2">
+Management
+</h4>
+
+<p class="text-gray-600 mb-3">
+BBA and MBA programs focusing on leadership, business analytics and entrepreneurship.
+</p>
+
+<span class="text-blue-600 font-medium">
+8 Specializations
+</span>
+
+</div>
+
+</div>
+
+
+<!-- Pharmacy -->
+
+<div class="bg-white rounded-xl shadow-md hover:shadow-lg overflow-hidden transition">
+
+<img src="images/programs/pharmacy.png"
+class="w-full h-48 object-cover hover:scale-105 transition duration-500">
+
+<div class="p-6 text-left">
+
+<h4 class="text-xl font-semibold text-gray-900 mb-2">
+Pharmacy
+</h4>
+
+<p class="text-gray-600 mb-3">
+B.Pharmacy, Pharm-D and pharmaceutical research programs with advanced laboratories.
+</p>
+
+<span class="text-blue-600 font-medium">
+5 Specializations
+</span>
+
+</div>
+
+</div>
+
+
+<!-- Science -->
+
+<div class="bg-white rounded-xl shadow-md hover:shadow-lg overflow-hidden transition">
+
+<img src="images/programs/science.png"
+class="w-full h-48 object-cover hover:scale-105 transition duration-500">
+
+<div class="p-6 text-left">
+
+<h4 class="text-xl font-semibold text-gray-900 mb-2">
+Science
+</h4>
+
+<p class="text-gray-600 mb-3">
+B.Sc and M.Sc programs in Physics, Chemistry, Biotechnology and Data Science.
+</p>
+
+<span class="text-blue-600 font-medium">
+6 Specializations
+</span>
+
+</div>
+
+</div>
+
+
+<!-- Law -->
+
+<div class="bg-white rounded-xl shadow-md hover:shadow-lg overflow-hidden transition">
+
+<img src="images/programs/law.png"
+class="w-full h-48 object-cover hover:scale-105 transition duration-500">
+
+<div class="p-6 text-left">
+
+<h4 class="text-xl font-semibold text-gray-900 mb-2">
+Law
+</h4>
+
+<p class="text-gray-600 mb-3">
+BA LL.B and BBA LL.B integrated programs with practical legal training.
+</p>
+
+<span class="text-blue-600 font-medium">
+3 Programs
+</span>
+
+</div>
+
+</div>
+
+
+<!-- Research -->
+
+<div class="bg-white rounded-xl shadow-md hover:shadow-lg overflow-hidden transition">
+
+<img src="images/programs/research.png"
+class="w-full h-48 object-cover hover:scale-105 transition duration-500">
+
+<div class="p-6 text-left">
+
+<h4 class="text-xl font-semibold text-gray-900 mb-2">
+Research
+</h4>
+
+<p class="text-gray-600 mb-3">
+Ph.D programs and research centers with industry collaboration and innovation labs.
+</p>
+
+<span class="text-blue-600 font-medium">
+15+ Research Areas
+</span>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- AI SERVICES -->
+
+<section class="py-20 bg-white">
+
+<div class="max-w-7xl mx-auto px-4 text-center">
+
+<h3 class="text-3xl font-bold text-gray-900 mb-4">
+AI-Powered Support Services
+</h3>
+
+<p class="text-gray-600 mb-12">
+Click any service to explore assistance and chat with the AI assistant
+</p>
+
+
+<!-- RESPONSIVE CARDS -->
+
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+<!-- Admission -->
+
+<a href="modules/admission.html"
+class="bg-blue-100 p-8 rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-1 transition">
+
+<div class="bg-blue-600 w-14 h-14 flex items-center justify-center rounded-lg mb-5 mx-auto">
+<i data-lucide="graduation-cap" class="text-white w-7 h-7"></i>
+</div>
+
+<h4 class="text-xl font-semibold mb-4">Admission Assistance</h4>
+
+<ul class="text-gray-700 space-y-2 text-left">
+<li>• Program information for B.Tech, B.Pharmacy, BBA, BCA and Law</li>
+<li>• V-SAT entrance exam guidance</li>
+<li>• Scholarship eligibility (up to 75%)</li>
+<li>• Application status tracking</li>
+</ul>
+
+</a>
+
+
+<!-- Academic -->
+
+<a href="modules/academic.html?module=academic"
+class="bg-green-100 p-8 rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-1 transition">
+
+<div class="bg-green-600 w-14 h-14 flex items-center justify-center rounded-lg mb-5 mx-auto">
+<i data-lucide="book-open" class="text-white w-7 h-7"></i>
+</div>
+
+<h4 class="text-xl font-semibold mb-4">Academic Support</h4>
+
+<ul class="text-gray-700 space-y-2 text-left">
+<li>• Course registration guidance</li>
+<li>• Credit requirement queries</li>
+<li>• Academic calendar information</li>
+<li>• Exam schedules & results</li>
+</ul>
+
+</a>
+
+
+<!-- Financial -->
+
+<a href="modules/financial.html?module=financial"
+class="bg-orange-100 p-8 rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-1 transition">
+
+<div class="bg-orange-600 w-14 h-14 flex items-center justify-center rounded-lg mb-5 mx-auto">
+<i data-lucide="dollar-sign" class="text-white w-7 h-7"></i>
+</div>
+
+<h4 class="text-xl font-semibold mb-4">Financial Assistance</h4>
+
+<ul class="text-gray-700 space-y-2 text-left">
+<li>• Tuition fee information</li>
+<li>• Merit scholarship guidance</li>
+<li>• Education loan assistance</li>
+<li>• Fee concession and financial aid</li>
+</ul>
+</a>
+
+
+<!-- Campus -->
+
+<a href="modules/campus.html?module=campus"
+class="bg-red-100 p-8 rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-1 transition">
+
+<div class="bg-red-600 w-14 h-14 flex items-center justify-center rounded-lg mb-5 mx-auto">
+<i data-lucide="map-pin" class="text-white w-7 h-7"></i>
+</div>
+
+<h4 class="text-xl font-semibold mb-4">Campus Support</h4>
+
+<ul class="text-gray-700 space-y-2 text-left">
+<li>• Hostel accommodation information</li>
+<li>• Transportation and campus navigation</li>
+<li>• Sports and student clubs</li>
+<li>• Library and research facilities</li>
+</ul>
+
+</a>
+
+
+<!-- Mental Health -->
+
+<a href="modules/mental.html?module=mental"
+class="bg-pink-100 p-8 rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-1 transition">
+
+<div class="bg-pink-600 w-14 h-14 flex items-center justify-center rounded-lg mb-5 mx-auto">
+<i data-lucide="heart" class="text-white w-7 h-7"></i>
+</div>
+
+<h4 class="text-xl font-semibold mb-4">Mental Health Support</h4>
+
+<ul class="text-gray-700 space-y-2 text-left">
+<li>• Student counseling appointments</li>
+<li>• Stress management and wellness programs</li>
+<li>• Academic pressure support</li>
+<li>• Mentor guidance system</li>
+</ul>
+
+</a>
+
+
+<!-- AI Features -->
+
+<a href="chatbot.html"
+class="bg-purple-100 p-8 rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-1 transition">
+
+<div class="bg-purple-600 w-14 h-14 flex items-center justify-center rounded-lg mb-5 mx-auto">
+<i data-lucide="message-circle" class="text-white w-7 h-7"></i>
+</div>
+
+<h4 class="text-xl font-semibold mb-4">Advanced AI Features</h4>
+
+<ul class="text-gray-700 space-y-2 text-left">
+<li>• 24/7 intelligent AI chatbot</li>
+<li>• Voice-enabled interaction</li>
+<li>• Multi-language student support</li>
+<li>• Personalized academic recommendations</li>
+</ul>
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+<!-- Campus Blocks & Facilities -->
+
+<section class="py-20 bg-gray-50">
+
+<div class="max-w-7xl mx-auto px-4 text-center">
+
+<h3 class="text-3xl font-bold text-gray-900 mb-3">
+Campus Blocks & Facilities
+</h3>
+
+<p class="text-gray-600 text-lg mb-12">
+Explore the major academic blocks and facilities at Vignan University
+</p>
+
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+<!-- N Block -->
+
+<div class="relative h-64 rounded-xl overflow-hidden shadow-lg group">
+
+<img src="images/n-block.jpeg"
+class="absolute w-full h-full object-cover group-hover:scale-110 transition duration-500">
+
+<div class="absolute inset-0 bg-black/50"></div>
+
+<div class="relative text-white p-6 text-left">
+<h4 class="text-xl font-semibold mb-2">N Block (Nagarjuna Block)</h4>
+<p class="text-sm">
+Agriculture and technology studies with the LARA Oxy Zone providing a green learning environment.
+</p>
+</div>
+
+</div>
+
+
+<!-- A Block -->
+
+<div class="relative h-64 rounded-xl overflow-hidden shadow-lg group">
+
+<img src="images/a-block.jpeg"
+class="absolute w-full h-full object-cover group-hover:scale-110 transition duration-500">
+
+<div class="absolute inset-0 bg-black/50"></div>
+
+<div class="relative text-white p-6 text-left">
+<h4 class="text-xl font-semibold mb-2">A Block</h4>
+<p class="text-sm">
+Central administrative building and hub for first-year B.Tech and B.Sc students.
+</p>
+</div>
+
+</div>
+
+
+<!-- U Block -->
+
+<div class="relative h-64 rounded-xl overflow-hidden shadow-lg group">
+
+<img src="images/u-block.jpeg"
+class="absolute w-full h-full object-cover group-hover:scale-110 transition duration-500">
+
+<div class="absolute inset-0 bg-black/50"></div>
+
+<div class="relative text-white p-6 text-left">
+<h4 class="text-xl font-semibold mb-2">U Block (Aryabhatta)</h4>
+<p class="text-sm">
+Mechanical Engineering department with advanced laboratories and research facilities.
+</p>
+</div>
+
+</div>
+
+
+<!-- H Block -->
+
+<div class="relative h-64 rounded-xl overflow-hidden shadow-lg group">
+
+<img src="images/h-block.jpeg"
+class="absolute w-full h-full object-cover group-hover:scale-110 transition duration-500">
+
+<div class="absolute inset-0 bg-black/50"></div>
+
+<div class="relative text-white p-6 text-left">
+<h4 class="text-xl font-semibold mb-2">H Block (Visweswaraya)</h4>
+<p class="text-sm">
+Academic building housing EEE and Food Technology departments with research labs.
+</p>
+</div>
+
+</div>
+
+
+<!-- Pharmacy Block -->
+
+<div class="relative h-64 rounded-xl overflow-hidden shadow-lg group">
+
+<img src="images/pharmacy.jpeg"
+class="absolute w-full h-full object-cover group-hover:scale-110 transition duration-500">
+
+<div class="absolute inset-0 bg-black/50"></div>
+
+<div class="relative text-white p-6 text-left">
+<h4 class="text-xl font-semibold mb-2">Pharmacy Block</h4>
+<p class="text-sm">
+Modern labs, classrooms and facilities supporting pharmacy education and research.
+</p>
+</div>
+
+</div>
+
+
+<!-- NTR Library -->
+
+<div class="relative h-64 rounded-xl overflow-hidden shadow-lg group">
+
+<img src="images/library.jpeg"
+class="absolute w-full h-full object-cover group-hover:scale-110 transition duration-500">
+
+<div class="absolute inset-0 bg-black/50"></div>
+
+<div class="relative text-white p-6 text-left">
+<h4 class="text-xl font-semibold mb-2">NTR Vignan Library</h4>
+<p class="text-sm">
+Air-conditioned library with 1,16,000+ books, journals and research resources.
+</p>
+</div>
+
+</div>
+
+
+<!-- Sports Ground -->
+
+<div class="relative h-64 rounded-xl overflow-hidden shadow-lg group">
+
+<img src="images/ground.jpeg"
+class="absolute w-full h-full object-cover group-hover:scale-110 transition duration-500">
+
+<div class="absolute inset-0 bg-black/50"></div>
+
+<div class="relative text-white p-6 text-left">
+<h4 class="text-xl font-semibold mb-2">Sports Grounds</h4>
+<p class="text-sm">
+Large playgrounds for cricket, football, athletics and indoor sports facilities.
+</p>
+</div>
+
+</div>
+
+
+<!-- Girls Hostel -->
+
+<div class="relative h-64 rounded-xl overflow-hidden shadow-lg group">
+
+<img src="images/girls-hostel.jpeg"
+class="absolute w-full h-full object-cover group-hover:scale-110 transition duration-500">
+
+<div class="absolute inset-0 bg-black/50"></div>
+
+<div class="relative text-white p-6 text-left">
+<h4 class="text-xl font-semibold mb-2">Priyadarshini Girls Hostel</h4>
+<p class="text-sm">
+Accommodation for 1200+ students with WiFi, security, mess and recreational facilities.
+</p>
+</div>
+
+</div>
+
+
+<!-- Boys Hostel -->
+
+<div class="relative h-64 rounded-xl overflow-hidden shadow-lg group">
+
+<img src="images/boys-hostel.jpeg"
+class="absolute w-full h-full object-cover group-hover:scale-110 transition duration-500">
+
+<div class="absolute inset-0 bg-black/50"></div>
+
+<div class="relative text-white p-6 text-left">
+<h4 class="text-xl font-semibold mb-2">Vignan Boys Hostel</h4>
+<p class="text-sm">
+On-campus accommodation with 1500+ beds, WiFi, medical support and mess services.
+</p>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- Student Mental Health & Counseling -->
+
+<section class="py-20 bg-white">
+
+<div class="max-w-7xl mx-auto px-4">
+
+<div class="text-center mb-12">
+
+<h3 class="text-3xl font-bold text-gray-900 mb-4">
+Student Mental Health & Counseling
+</h3>
+
+<p class="text-lg text-gray-600 max-w-3xl mx-auto">
+Vignan University provides dedicated counseling and
+student wellness programs to help students manage
+academic pressure, stress, and personal challenges.
+Professional counselors and mentors guide students
+towards a balanced academic and personal life.
+</p>
+
+</div>
+
+
+<div class="grid md:grid-cols-2 gap-12">
+
+<!-- Counseling Services -->
+
+<div>
+
+<h4 class="text-xl font-semibold mb-6">
+Counseling Services Available
+</h4>
+
+<ul class="space-y-4 text-gray-700">
+
+<li>✓ Individual counseling sessions with licensed psychologists</li>
+
+<li>✓ Group therapy and peer support programs</li>
+
+<li>✓ Stress and anxiety management workshops</li>
+
+<li>✓ Academic pressure and exam stress counseling</li>
+
+<li>✓ Career guidance and personal development</li>
+
+</ul>
+
+</div>
+
+
+<!-- Contact Information -->
+
+<div class="bg-red-50 p-8 rounded-xl">
+
+<h4 class="text-xl font-semibold mb-6">
+Contact & Availability
+</h4>
+
+<div class="space-y-3 text-gray-700">
+
+<p><strong>Location:</strong> Student Wellness Center, Ground Floor</p>
+
+<p><strong>Timing:</strong> Monday - Friday: 9:00 AM - 6:00 PM</p>
+
+<p><strong>Saturday:</strong> 9:00 AM - 2:00 PM</p>
+
+<p><strong>Emergency Hotline:</strong> +91-8866-123-456 (24/7)</p>
+
+<p><strong>Email:</strong> counseling@vignan.ac.in</p>
+
+<p class="italic text-sm text-gray-600 mt-4">
+All sessions are strictly confidential and free for students
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- Call to Action -->
+
+<div class="mt-16 bg-red-100 p-8 rounded-xl text-center">
+
+<p class="text-lg font-medium mb-6">
+Need immediate support? Our AI chatbot can help you schedule appointments instantly!
+</p>
+
+<button onclick="openChatbot()"
+class="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-lg shadow-md transition">
+
+Talk to AI Assistant Now
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+<!-- Footer -->
+
+<footer class="bg-blue-950 text-gray-300 pt-16 pb-8">
+
+<div class="max-w-7xl mx-auto px-4">
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+
+<!-- Contact -->
+
+<div>
+
+<h4 class="text-lg font-semibold text-white mb-4">
+Contact Us
+</h4>
+
+<p>Vignan University</p>
+<p>Vadlamudi, Guntur</p>
+<p>Andhra Pradesh - 522213</p>
+
+<p class="mt-4">Phone: +91-863-2344-700</p>
+<p>Email: info@vignan.ac.in</p>
+
+</div>
+
+
+<!-- Quick Links -->
+
+<div>
+
+<h4 class="text-lg font-semibold text-white mb-4">
+Quick Links
+</h4>
+
+<ul class="space-y-2">
+
+<li>
+<a href="modules/admission.html?module=admission" class="hover:text-white">
+Admissions
+</a>
+</li>
+
+<li>
+<a href="modules/academic.html?module=academic" class="hover:text-white">
+Academic Programs
+</a>
+</li>
+
+<li>
+<a href="modules/campus.html?module=campus" class="hover:text-white">
+Campus Facilities
+</a>
+</li>
+
+<li>
+<a href="index.html" class="hover:text-white">
+Home
+</a>
+</li>
+
+</ul>
+
+</div>
+
+
+<!-- Support -->
+
+<div>
+
+<h4 class="text-lg font-semibold text-white mb-4">
+Support
+</h4>
+
+<ul class="space-y-2">
+
+<li>
+<a href="modules/financial.html?module=financial" class="hover:text-white">
+Scholarships & Financial Aid
+</a>
+</li>
+
+<li>
+<a href="modules/mental.html?module=mental" class="hover:text-white">
+Mental Health Support
+</a>
+</li>
+
+<li>
+<a href="chatbot.html" class="hover:text-white">
+AI Chatbot Support
+</a>
+</li>
+
+<li>
+<a href="modules/campus.html?module=campus" class="hover:text-white">
+Hostel & Transport
+</a>
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+<!-- Bottom Line -->
+
+<div class="border-t border-gray-700 mt-12 pt-6 text-center text-gray-400">
+
+<p>
+© 2024 Vignan University. All rights reserved.
+</p>
+
+</div>
+
+</div>
+
+</footer>
+
+
+<script>
+
+lucide.createIcons()
+
+function openChatbot(){
+window.location.href="chatbot.html"
+}
+
+</script>
+
+</body>
+</html>
