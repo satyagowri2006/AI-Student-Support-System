@@ -1,0 +1,135 @@
+UNIVERSITY_OVERVIEW
+Vignan’s Foundation for Science, Technology and Research (VFSTR) is a deemed university located in Vadlamudi, Guntur District, Andhra Pradesh, India. The university provides quality education in engineering, science, management, agriculture, pharmacy, and law programs. The campus spans around 72 acres and focuses on research, innovation, and skill development.
+
+UNIVERSITY_FACULTY_AND_INFRASTRUCTURE
+The university has dedicated faculty members, many from premier institutions such as IITs and NITs. The campus includes modern laboratories, research centers, incubation centers, and innovation hubs that support academic excellence and research activities.
+
+UNIVERSITY_RESEARCH_AND_LEARNING
+Vignan University promotes research and innovation through centers of excellence, laboratories, and industry collaborations. Students have access to digital learning platforms, e-journals, research resources, and high-speed internet facilities.
+
+ADMISSION_PROGRAM_INFORMATION
+Vignan University offers undergraduate, postgraduate, and doctoral programs in engineering, science, management, agriculture, pharmacy, and law disciplines.
+
+UNDERGRADUATE_PROGRAMS
+Undergraduate programs include B.Tech, BBA, BCA, B.Sc, B.Sc (Hons) Agriculture, B.Pharmacy, Pharm-D, BA LL.B (Hons), and BBA LL.B (Hons).
+
+BTECH_SPECIALIZATIONS
+B.Tech specializations include Computer Science and Engineering, Artificial Intelligence and Machine Learning, Cyber Security, Data Science, Internet of Things, Electronics and Communication Engineering, Electrical and Electronics Engineering, Mechanical Engineering, Civil Engineering, Agricultural Engineering, Chemical Engineering, Robotics and Automation, Textile Technology, Biotechnology, Biomedical Engineering, and Bioinformatics.
+
+POSTGRADUATE_PROGRAMS
+Postgraduate programs include MBA, MBA Business Analytics, MCA, M.Tech, M.Sc programs, M.Pharmacy, and PhD programs in various disciplines.
+
+ADMISSION_ENTRANCE_EXAMS
+Admissions are conducted through entrance examinations such as V-SAT (Vignan Scholastic Aptitude Test), EAPCET, JEE Main, JEE Advanced, and NEET for applicable programs.
+
+ADMISSION_ELIGIBILITY
+Students applying for undergraduate programs must complete Intermediate or 10+2 education with appropriate subject combinations such as MPC or BiPC depending on the course.
+
+ADMISSION_MINIMUM_MARKS
+Candidates typically require a minimum of 60 percent aggregate marks in the qualifying examination for admission. Higher marks improve eligibility for scholarships.
+
+ADMISSION_BIPC_ELIGIBILITY
+BiPC students are eligible to apply for certain programs including biotechnology, pharmacy, and some interdisciplinary engineering programs.
+
+ADMISSION_APPLICATION_PROCESS
+Students can apply through the official admissions portal by registering online, filling out the application form, uploading required documents, and paying the application fee.
+
+ADMISSION_APPLICATION_PORTAL
+Students can apply online through the admissions portal at https://admissions.vignan.ac.in
+.
+
+APPLICATION_TRACKING
+Applicants can track their admission status, download entrance examination hall tickets, and receive updates through the online admissions portal.
+
+ACADEMIC_SUPPORT_REGISTRATION
+Students register for courses based on their semester curriculum through the academic system after admission.
+
+ACADEMIC_PROJECT_BASED_CURRICULUM
+Vignan follows a project-based curriculum where students work on practical projects each semester starting from the second year to improve industry readiness.
+
+ACADEMIC_CREDIT_SYSTEM
+The university follows a credit-based academic system where students earn credits through core subjects, electives, laboratories, internships, and projects.
+
+ACADEMIC_MINOR_PROGRAMS
+Students can pursue interdisciplinary minor courses in management, humanities, sciences, and civil services preparation.
+
+ACADEMIC_CALENDAR_STRUCTURE
+The academic year follows a semester system including lectures, laboratory sessions, examinations, internships, workshops, seminars, and project evaluations.
+
+ACADEMIC_EVENTS
+The university organizes national-level events such as Srujanankura youth festival which includes technical, sports, cultural, and literary competitions.
+
+FEE_STRUCTURE_BTECH
+The approximate tuition fee for B.Tech CSE related programs under Category A admission is around ₹2,80,000 per year.
+
+FEE_STRUCTURE_BTECH_CATEGORY_B
+Under Category B admission the B.Tech CSE related programs may have tuition fees around ₹3,80,000 per year.
+
+FEE_STRUCTURE_OTHER_PROGRAMS
+Other programs such as BBA, BCA, MBA, and M.Tech have tuition fees ranging approximately between ₹80,000 and ₹3,00,000 per year depending on the course.
+
+ADMISSION_FEES
+Admission fees generally range between ₹10,000 and ₹20,000 depending on the program selected.
+
+SCHOLARSHIP_CRITERIA
+Vignan University offers merit-based scholarships based on performance in entrance exams such as V-SAT, JEE Main, EAPCET, NEET, and marks obtained in Intermediate examinations.
+
+SCHOLARSHIP_TYPES
+Scholarships may provide 75 percent, 50 percent, 25 percent, or 10 percent tuition fee reduction depending on merit and rank.
+
+SCHOLARSHIP_CONTINUATION_RULE
+Students must maintain a minimum CGPA of 7.0 each academic year to continue receiving scholarship benefits.
+
+EDUCATION_LOAN_SUPPORT
+Students can apply for education loans through nationalized banks, and the university provides necessary admission and fee documents for loan processing.
+
+HOSTEL_FACILITIES
+Vignan University provides separate hostel facilities for boys and girls within the campus.
+
+HOSTEL_ROOM_TYPES
+Hostel accommodation includes AC and Non-AC room options for students.
+
+HOSTEL_SERVICES
+Hostel facilities include Wi-Fi connectivity, mess services, study rooms, security, and basic living amenities.
+
+HOSTEL_FEES_AC
+The approximate hostel fee for AC rooms is around ₹1,45,000 per year.
+
+HOSTEL_FEES_NON_AC
+The approximate hostel fee for non-AC rooms is around ₹1,15,000 per year.
+
+TRANSPORT_SERVICES
+The university operates bus transportation services connecting nearby cities and towns.
+
+TRANSPORT_LOCATIONS
+Transportation facilities are available for students commuting from Guntur, Vijayawada, Tenali, Nellore, Vizag, Hyderabad, and Warangal.
+
+CAMPUS_INFRASTRUCTURE
+The campus includes research laboratories, centers of excellence, incubation centers, sports facilities, libraries with digital journals, and student activity clubs.
+
+LABORATORIES_AND_RESEARCH
+More than 88 laboratories and multiple research centers support practical learning, innovation, and technical research activities.
+
+MENTAL_HEALTH_COUNSELING
+The university provides psychological counseling services for students through experienced counselors and faculty mentors.
+
+MENTAL_HEALTH_SUPPORT
+Students can receive support for academic stress, personal challenges, emotional wellbeing, and career guidance.
+
+STRESS_MANAGEMENT_PROGRAMS
+Stress management resources include yoga programs, meditation sessions, personality development training, life skills workshops, and extracurricular activities.
+
+STUDENT_CLUBS
+Students can participate in clubs related to music, drama, photography, environment, sports, and cultural activities.
+
+PLACEMENT_RECORD
+Vignan University maintains strong placement performance with approximately 85 to 90 percent of students securing job placements each year.
+
+PLACEMENT_TRAINING
+Students receive placement training including communication skills, technical training, mock interviews, aptitude preparation, and internship opportunities from early years of study.
+
+COMPANIES_RECRUITING
+Major companies recruiting students include TCS, Accenture, Cognizant, Wipro, and HCL.
+
+PLACEMENT_SALARY
+The highest salary packages have reached approximately ₹44 lakh per annum with internship stipends up to ₹80,000.
