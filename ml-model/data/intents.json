@@ -1,0 +1,161 @@
+{
+ "intents":[
+
+{
+"tag": "admission",
+"patterns": [
+"admission",
+"how to apply admission",
+"admission process",
+"how do I apply for admission",
+"can you explain the admission process",
+"steps for admission",
+"application procedure",
+"how to join the university",
+"what is the admission procedure",
+"how can I get admission",
+"how do I register for admission",
+"where can I apply for admission",
+"when does admission start",
+"admission details",
+"eligibility for admission",
+"btech admission process",
+"mtech admission process",
+"mba admission process",
+"mca admission process",
+"phd admission process"
+],
+"responses": [
+"You can apply through the university admission portal.",
+"Admission details are available on the university website.",
+"Please visit the admissions section for eligibility and application details."
+]
+},
+
+  {
+"tag": "academic",
+"patterns": [
+"academic calendar",
+"course registration",
+"how to register courses",
+"credit requirements",
+"how many credits are needed to graduate",
+"semester start date",
+"exam schedule",
+"class timetable",
+"syllabus information",
+"academic help",
+"course details",
+"how to add course",
+"how to drop course",
+"internal marks details",
+"grading system",
+"semester exam dates",
+"attendance requirement",
+"minimum attendance",
+"course syllabus",
+"faculty information"
+],
+"responses": [
+"The academic calendar is available on the university website.",
+"You can register courses through the student portal.",
+"Please check the academic section for course and exam information."
+]
+},
+
+  {
+"tag": "financial",
+"patterns": [
+"fee payment",
+"how to pay fees",
+"tuition fee",
+"hostel fee",
+"bus fee",
+"transport fee",
+"scholarship information",
+"financial aid",
+"loan assistance",
+"fee deadline",
+"payment methods",
+"fee structure",
+"how to pay semester fee",
+"scholarship eligibility",
+"education loan",
+"installment fee payment",
+"late fee penalty",
+"fee refund policy",
+"online fee payment",
+"payment receipt"
+],
+"responses": [
+"Fees can be paid through the online payment portal.",
+"Scholarship information is available in the financial aid section.",
+"Please check the finance office page for payment details."
+]
+},
+
+  {
+"tag": "campus",
+"patterns": [
+"hostel facilities",
+"campus",
+"hostel information",
+"hostel room availability",
+"transport schedule",
+"bus timings",
+"campus navigation",
+"campus map",
+"library timings",
+"canteen details",
+"sports facilities",
+"gym facilities",
+"wifi availability",
+"parking facilities",
+"medical facilities",
+"security office",
+"lost and found",
+"campus rules",
+"student clubs",
+"event schedule",
+"campus services"
+],
+"responses": [
+"Hostel information is available in the campus services section.",
+"Bus schedules are updated weekly on the website.",
+"You can find campus facilities information in the student portal."
+]
+},
+
+  {
+"tag": "mental_health",
+"patterns": [
+"I feel stressed",
+"I am feeling depressed",
+"I need counseling",
+"mental health support",
+"stress management",
+"I feel anxious",
+"I need help emotionally",
+"how to book counseling",
+"talk to counselor",
+"mental health services",
+"student wellness center",
+"psychological support",
+"anxiety help",
+"stress relief resources",
+"emotional support",
+"mental wellbeing",
+"therapy appointment",
+"need someone to talk to",
+"feeling overwhelmed",
+"mental health help"
+],
+"responses": [
+"You can schedule counseling through the wellness center portal.",
+"Our counselors are available Monday to Friday.",
+"Please contact the student wellness center for support."
+]
+}
+
+ ]
+}

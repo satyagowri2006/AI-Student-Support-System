@@ -1,0 +1,10 @@
+tensorflow
+numpy
+nltk
+scikit-learn
+pickle-mixin
+flask
+textblob
+googletrans
+speechrecognition
+pyttsx3
