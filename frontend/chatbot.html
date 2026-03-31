@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
 
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Vignan AI Assistant</title>
 
@@ -13,57 +15,130 @@
 
 <body class="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100 flex flex-col">
 
-<header class="bg-white shadow-md border-b border-gray-200">
+<!-- HEADER -->
 
-<div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+<header class="bg-white/90 backdrop-blur-md shadow-md sticky top-0 z-50 border-b border-gray-200">
+
+<div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+
+<!-- Logo + Title -->
 
 <div class="flex items-center space-x-3">
 
-<i data-lucide="bot" class="h-8 w-8 text-blue-600"></i>
+<img src="images/AI-logo.png" class="w-12 h-12 object-contain">
 
 <div>
-<h1 class="text-xl font-bold text-gray-900">Vignan AI Assistant</h1>
-<p class="text-sm text-gray-600">24/7 Intelligent Student Support</p>
-</div>
+
+<h1 class="text-lg font-bold text-gray-900">
+Vignan AI Assistant
+</h1>
+
+<p class="text-xs text-gray-500">
+24/7 Intelligent Student Support
+</p>
 
 </div>
 
-<button onclick="goHome()" class="bg-gray-100 px-4 py-2 rounded-lg">Home</button>
+</div>
+
+
+<!-- Navigation -->
+
+<div class="flex items-center space-x-4">
+
+<button onclick="goHome()"
+class="px-5 py-2 rounded-lg bg-gray-100 hover:bg-gray-200 transition">
+
+Home
+
+</button>
+
+</div>
 
 </div>
 
 </header>
 
 
-<div class="flex-1 max-w-6xl mx-auto w-full px-4 py-6 flex flex-col">
 
-<div class="bg-white rounded-xl shadow-lg flex flex-col h-[calc(100vh-180px)]">
+<!-- CHAT CONTAINER -->
+
+<div class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 flex flex-col">
+
+<div class="bg-white rounded-xl shadow-xl flex flex-col h-[calc(100vh-200px)]">
+
+<!-- Messages -->
 
 <div id="messages" class="flex-1 overflow-y-auto p-6 space-y-4"></div>
 
+
+<!-- Input Section -->
+
 <div class="border-t border-gray-200 p-4 bg-gray-50 rounded-b-xl">
+
+<!-- Quick Buttons -->
 
 <div class="mb-3 flex flex-wrap gap-2">
 
-<button onclick="quick('Tell me about admission process')" class="bg-white border px-4 py-2 rounded-lg">Admission</button>
+<button onclick="quick('Tell me about admission process')" 
+class="bg-white border px-4 py-2 rounded-lg hover:bg-gray-100">
 
-<button onclick="quick('How do I register for courses?')" class="bg-white border px-4 py-2 rounded-lg">Courses</button>
+Admission
 
-<button onclick="quick('What scholarships are available?')" class="bg-white border px-4 py-2 rounded-lg">Scholarships</button>
+</button>
 
-<button onclick="quick('Tell me about hostel facilities')" class="bg-white border px-4 py-2 rounded-lg">Hostel</button>
+<button onclick="quick('How do I register for courses?')" 
+class="bg-white border px-4 py-2 rounded-lg hover:bg-gray-100">
 
-<button onclick="quick('I need counseling support')" class="bg-white border px-4 py-2 rounded-lg">Counseling</button>
+Courses
+
+</button>
+
+<button onclick="quick('What scholarships are available?')" 
+class="bg-white border px-4 py-2 rounded-lg hover:bg-gray-100">
+
+Scholarships
+
+</button>
+
+<button onclick="quick('Tell me about hostel facilities')" 
+class="bg-white border px-4 py-2 rounded-lg hover:bg-gray-100">
+
+Hostel
+
+</button>
+
+<button onclick="quick('I need counseling support')" 
+class="bg-white border px-4 py-2 rounded-lg hover:bg-gray-100">
+
+Counseling
+
+</button>
 
 </div>
+
+
+<!-- Chat Input -->
 
 <div class="flex gap-2">
 
-<input id="userInput" class="flex-1 px-4 py-3 border rounded-lg" placeholder="Type your message">
+<input id="userInput"
+class="flex-1 px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+placeholder="Type your message...">
 
-<button onclick="startVoice()" class="bg-gray-200 p-3 rounded-lg">🎤</button>
+<button onclick="startVoice()"
+class="bg-gray-200 hover:bg-gray-300 p-3 rounded-lg">
 
-<button onclick="sendMessage()" class="bg-blue-600 text-white p-3 rounded-lg">Send</button>
+🎤
+
+</button>
+
+<button onclick="sendMessage()"
+class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg">
+
+Send
+
+</button>
 
 </div>
 
@@ -72,12 +147,117 @@
 </div>
 
 </div>
+
+
+
+<!-- FOOTER -->
+
+<footer class="bg-blue-950 text-gray-300 pt-12 pb-6">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+
+<!-- Contact -->
+
+<div>
+
+<h4 class="text-white font-semibold mb-4">
+Contact
+</h4>
+
+<p>Vignan University</p>
+<p>Vadlamudi, Guntur</p>
+<p>Andhra Pradesh – 522213</p>
+
+<p class="mt-4">Phone: +91-863-2344-700</p>
+
+</div>
+
+
+<!-- Links -->
+
+<div>
+
+<h4 class="text-white font-semibold mb-4">
+Quick Links
+</h4>
+
+<ul class="space-y-2">
+
+<li>
+<a href="index.html" class="hover:text-white">Home</a>
+</li>
+
+<li>
+<a href="modules/admission.html" class="hover:text-white">Admissions</a>
+</li>
+
+<li>
+<a href="modules/academic.html" class="hover:text-white">Academic Programs</a>
+</li>
+
+</ul>
+
+</div>
+
+
+<!-- Support -->
+
+<div>
+
+<h4 class="text-white font-semibold mb-4">
+Support
+</h4>
+
+<ul class="space-y-2">
+
+<li>
+<a href="modules/financial.html" class="hover:text-white">
+Scholarships
+</a>
+</li>
+
+<li>
+<a href="modules/mental.html" class="hover:text-white">
+Mental Health Support
+</a>
+</li>
+
+<li>
+<a href="chatbot.html" class="hover:text-white">
+AI Chatbot
+</a>
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+<div class="border-t border-gray-700 mt-8 pt-4 text-center text-gray-400">
+
+© 2024 Vignan University. All rights reserved.
+
+</div>
+
+</div>
+
+</footer>
+
+
 
 <script src="script.js"></script>
 <script src="voice.js"></script>
 
 <script>
 lucide.createIcons()
+
+function goHome(){
+window.location.href="index.html"
+}
 </script>
 
 </body>

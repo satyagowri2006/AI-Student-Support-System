@@ -1,7 +1,7 @@
 body{
 font-family:Arial;
 margin:0;
-background:#f5f7fb;
+background:#f1f1ef;
 }
 
 .container{
@@ -31,7 +31,7 @@ align-items:center;
 }
 
 button{
-background:#2563eb;
+background:#a0b72c;
 color:white;
 border:none;
 padding:10px 20px;
@@ -116,4 +116,7 @@ padding:40px 0;
 text-align:center;
 padding-bottom:20px;
 color:#aaa;
+}
+.slide{
+transition: opacity 1s ease-in-out;
 }

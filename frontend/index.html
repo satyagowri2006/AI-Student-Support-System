@@ -16,27 +16,95 @@
 
 <!-- HEADER -->
 
-<header class="bg-white shadow-sm sticky top-0 z-50">
+<!-- HEADER -->
 
-<div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+<header class="bg-white/90 backdrop-blur-md shadow-md sticky top-0 z-50 border-b border-gray-200">
+
+<div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+
+<!-- Logo + Title -->
 
 <div class="flex items-center space-x-3">
 
-<i data-lucide="graduation-cap" class="h-8 w-8 text-blue-600"></i>
+<img src="images/vig.png" class="w-12 h-12 object-contain">
 
 <div>
-<h1 class="text-xl font-bold text-gray-900">Vignan University</h1>
-<p class="text-sm text-gray-600">Student Support System</p>
+
+<h1 class="text-lg font-bold text-gray-900 leading-tight">
+Vignan University
+</h1>
+
+<p class="text-xs text-gray-500">
+AI Student Support System
+</p>
+
 </div>
 
 </div>
+
+
+<!-- NAVIGATION -->
+
+<nav class="hidden md:flex items-center space-x-8 text-gray-700 font-medium">
+
+<a href="#aboutVignan"
+class="hover:text-blue-600 relative group">
+
+About
+
+<span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-blue-600 transition-all group-hover:w-full"></span>
+
+</a>
+
+<a href="#programs"
+class="hover:text-blue-600 relative group">
+
+Programs
+
+<span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-blue-600 transition-all group-hover:w-full"></span>
+
+</a>
+
+<a href="#services"
+class="hover:text-blue-600 relative group">
+
+Services
+
+<span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-blue-600 transition-all group-hover:w-full"></span>
+
+</a>
+
+<a href="#campus"
+class="hover:text-blue-600 relative group">
+
+Campus
+
+<span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-blue-600 transition-all group-hover:w-full"></span>
+
+</a>
+
+<a href="#mental"
+class="hover:text-blue-600 relative group">
+
+Counseling
+
+<span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-blue-600 transition-all group-hover:w-full"></span>
+
+</a>
+
+</nav>
+
+
+<!-- CHATBOT BUTTON -->
 
 <button onclick="openChatbot()"
-class="flex items-center space-x-2 bg-blue-600 text-white px-6 py-2.5 rounded-lg hover:bg-blue-700 transition shadow-md">
+class="flex items-center space-x-2 bg-blue-600 text-white px-5 py-2.5 rounded-lg hover:bg-blue-700 transition shadow-md hover:shadow-lg">
 
 <i data-lucide="message-circle" class="h-5 w-5"></i>
 
-<span class="font-medium">AI Chatbot</span>
+<span class="font-medium">
+AI Chatbot
+</span>
 
 </button>
 
@@ -46,98 +114,95 @@ class="flex items-center space-x-2 bg-blue-600 text-white px-6 py-2.5 rounded-lg
 
 
 <!-- HERO -->
+<section id="aboutVignan" class="relative py-28 text-white overflow-hidden">
 
-<section class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
+<!-- BACKGROUND SLIDES -->
 
-<div class="max-w-7xl mx-auto text-center px-4">
+<div class="absolute inset-0 -z-10">
 
-<h2 class="text-4xl md:text-5xl font-bold mb-6">
-Welcome to Vignan University
+<img src="images/campus1.png" class="bg-slide absolute w-full h-full object-cover opacity-100">
+<img src="images/campus2.png" class="bg-slide absolute w-full h-full object-cover opacity-0">
+<img src="images/campus3.png" class="bg-slide absolute w-full h-full object-cover opacity-0">
+<img src="images/campus4.png" class="bg-slide absolute w-full h-full object-cover opacity-0">
+<img src="images/campus5.png" class="bg-slide absolute w-full h-full object-cover opacity-0">
+
+<!-- smoother overlay -->
+<div class="absolute inset-0 bg-gradient-to-r from-black/70 via-blue-900/60 to-black/70"></div>
+
+</div>
+
+
+<div class="max-w-7xl mx-auto px-6 text-center">
+
+<!-- ABOUT TEXT -->
+
+<h2 class="text-4xl md:text-5xl font-bold mb-8 tracking-wide">
+Vignan University
 </h2>
 
-<p class="text-lg md:text-xl text-blue-100 max-w-3xl mx-auto">
-
-A premier educational institution dedicated to excellence in teaching,
-research, and innovation with AI-powered student support.
-
-</p>
-
-</div>
-
-</section>
-<!-- About Vignan University -->
-
-<section class="py-16 bg-white">
-
-<div class="max-w-7xl mx-auto px-4 text-center">
-
-<h3 class="text-3xl font-bold text-gray-900 mb-4">
-About Vignan University
-</h3>
-
-<p class="text-lg text-gray-600 max-w-3xl mx-auto mb-10">
+<p class="text-lg text-gray-200 max-w-4xl mx-auto mb-16 leading-relaxed">
 
 Vignan’s Foundation for Science, Technology and Research (VFSTR) is a premier
-educational institution known for academic excellence, research innovation,
-and strong industry collaboration. The university offers modern laboratories,
-centres of excellence, and industry-driven curriculum to prepare students for
-successful careers. With world-class infrastructure, experienced faculty, and
-excellent placement records, Vignan continues to empower students with
-knowledge, skills, and leadership qualities.
+educational institution recognized for academic excellence, research innovation
+and strong industry collaboration. With world-class infrastructure, modern
+laboratories and experienced faculty, Vignan prepares students for successful
+global careers through technology-driven education.
 
 </p>
 
-<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 
-<!-- Students -->
 
-<div class="bg-blue-50 p-8 rounded-xl shadow-md">
+<!-- STATS -->
 
-<i data-lucide="users" class="w-12 h-12 text-blue-600 mx-auto mb-4"></i>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-10">
 
-<h4 class="text-2xl font-bold text-gray-900">
-20,000+
-</h4>
+<div class="bg-white/15 backdrop-blur-md border border-white/20 p-8 rounded-xl shadow-lg hover:scale-105 transition">
 
-<p class="text-gray-700">
-Active Students
-</p>
+<i data-lucide="users" class="w-10 h-10 mx-auto mb-3 text-blue-300"></i>
+
+<h3 class="counter text-4xl font-bold text-white" data-target="20000">0</h3>
+
+<p class="text-gray-200">Active Students</p>
 
 </div>
 
 
-<!-- Faculty -->
+<div class="bg-white/15 backdrop-blur-md border border-white/20 p-8 rounded-xl shadow-lg hover:scale-105 transition">
 
-<div class="bg-green-50 p-8 rounded-xl shadow-md">
+<i data-lucide="award" class="w-10 h-10 mx-auto mb-3 text-green-300"></i>
 
-<i data-lucide="award" class="w-12 h-12 text-green-600 mx-auto mb-4"></i>
+<h3 class="counter text-4xl font-bold text-white" data-target="500">0</h3>
 
-<h4 class="text-2xl font-bold text-gray-900">
-500+
-</h4>
-
-<p class="text-gray-700">
-Expert Faculty
-</p>
+<p class="text-gray-200">Expert Faculty</p>
 
 </div>
 
 
-<!-- Accreditation -->
+<div class="bg-white/15 backdrop-blur-md border border-white/20 p-8 rounded-xl shadow-lg hover:scale-105 transition">
 
-<div class="bg-orange-50 p-8 rounded-xl shadow-md">
+<i data-lucide="trophy" class="w-10 h-10 mx-auto mb-3 text-yellow-300"></i>
 
-<i data-lucide="trophy" class="w-12 h-12 text-orange-600 mx-auto mb-4"></i>
+<h3 class="text-4xl font-bold text-white">A+</h3>
 
-<h4 class="text-2xl font-bold text-gray-900">
-A+ Grade
-</h4>
-
-<p class="text-gray-700">
-NAAC Accreditation
-</p>
+<p class="text-gray-200">NAAC Accreditation</p>
 
 </div>
+
+</div>
+
+
+
+<!-- ADDRESS -->
+
+<div class="mt-16 text-gray-200 text-lg">
+
+<p class="font-semibold text-white mb-2 text-xl">
+Vignan University
+</p>
+
+<p>Vadlamudi, Guntur</p>
+
+<p>Andhra Pradesh – 522213</p>
 
 </div>
 
@@ -147,7 +212,7 @@ NAAC Accreditation
 
 <!-- Programs & Courses -->
 
-<section class="py-16 bg-gray-50">
+<section id="programs" class="py-16 bg-gray-50">
 
 <div class="max-w-7xl mx-auto px-4 text-center">
 
@@ -162,6 +227,8 @@ Vignan University offers a wide range of undergraduate, postgraduate, and resear
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
 <!-- Engineering -->
+
+<a href="modules/engineering.html">
 
 <div class="bg-white rounded-xl shadow-md hover:shadow-lg overflow-hidden transition">
 
@@ -186,9 +253,11 @@ B.Tech programs in CSE, AI & ML, Data Science, IoT, Mechanical, Civil, Electrica
 
 </div>
 
+</a>
+
 
 <!-- Management -->
-
+<a href="modules/management.html">
 <div class="bg-white rounded-xl shadow-md hover:shadow-lg overflow-hidden transition">
 
 <img src="images/programs/management.png"
@@ -211,10 +280,10 @@ BBA and MBA programs focusing on leadership, business analytics and entrepreneur
 </div>
 
 </div>
-
+</a>
 
 <!-- Pharmacy -->
-
+<a href="modules/pharmacy.html">
 <div class="bg-white rounded-xl shadow-md hover:shadow-lg overflow-hidden transition">
 
 <img src="images/programs/pharmacy.png"
@@ -237,10 +306,10 @@ B.Pharmacy, Pharm-D and pharmaceutical research programs with advanced laborator
 </div>
 
 </div>
-
+</a>
 
 <!-- Science -->
-
+<a href="modules/science.html">
 <div class="bg-white rounded-xl shadow-md hover:shadow-lg overflow-hidden transition">
 
 <img src="images/programs/science.png"
@@ -263,10 +332,10 @@ B.Sc and M.Sc programs in Physics, Chemistry, Biotechnology and Data Science.
 </div>
 
 </div>
-
+</a>
 
 <!-- Law -->
-
+<a href="modules/law.html">
 <div class="bg-white rounded-xl shadow-md hover:shadow-lg overflow-hidden transition">
 
 <img src="images/programs/law.png"
@@ -289,10 +358,10 @@ BA LL.B and BBA LL.B integrated programs with practical legal training.
 </div>
 
 </div>
-
+</a>
 
 <!-- Research -->
-
+<a href="modules/research.html">
 <div class="bg-white rounded-xl shadow-md hover:shadow-lg overflow-hidden transition">
 
 <img src="images/programs/research.png"
@@ -319,11 +388,11 @@ Ph.D programs and research centers with industry collaboration and innovation la
 </div>
 
 </div>
-
+</a>
 </section>
 <!-- AI SERVICES -->
 
-<section class="py-20 bg-white">
+<section id="services" class="py-20 bg-white">
 
 <div class="max-w-7xl mx-auto px-4 text-center">
 
@@ -471,7 +540,7 @@ class="bg-purple-100 p-8 rounded-2xl shadow-md hover:shadow-xl hover:-translate-
 </section>
 <!-- Campus Blocks & Facilities -->
 
-<section class="py-20 bg-gray-50">
+<section id="campus" class="py-20 bg-gray-50">
 
 <div class="max-w-7xl mx-auto px-4 text-center">
 
@@ -662,98 +731,76 @@ On-campus accommodation with 1500+ beds, WiFi, medical support and mess services
 </section>
 <!-- Student Mental Health & Counseling -->
 
-<section class="py-20 bg-white">
+<section id="mental" class="py-20 bg-gray-50">
 
-<div class="max-w-7xl mx-auto px-4">
+<div class="max-w-7xl mx-auto px-6">
 
-<div class="text-center mb-12">
-
-<h3 class="text-3xl font-bold text-gray-900 mb-4">
+<!-- Heading -->
+<div class="text-center mb-14">
+<h3 class="text-4xl font-bold text-gray-900 mb-4">
 Student Mental Health & Counseling
 </h3>
 
-<p class="text-lg text-gray-600 max-w-3xl mx-auto">
-Vignan University provides dedicated counseling and
-student wellness programs to help students manage
-academic pressure, stress, and personal challenges.
-Professional counselors and mentors guide students
-towards a balanced academic and personal life.
+<p class="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
+At Vignan University, student well-being is a top priority. We offer comprehensive 
+mental health and counseling services designed to support students in managing 
+academic pressure, emotional well-being, and personal challenges. Our certified 
+counselors and mentors are committed to helping students achieve a balanced and 
+healthy lifestyle.
 </p>
-
 </div>
 
+<!-- Content Grid -->
+<div class="grid md:grid-cols-2 gap-12 items-start">
 
-<div class="grid md:grid-cols-2 gap-12">
-
-<!-- Counseling Services -->
-
+<!-- Services -->
 <div>
-
-<h4 class="text-xl font-semibold mb-6">
-Counseling Services Available
+<h4 class="text-2xl font-semibold text-gray-800 mb-6">
+Our Counseling Services
 </h4>
 
-<ul class="space-y-4 text-gray-700">
-
-<li>✓ Individual counseling sessions with licensed psychologists</li>
-
-<li>✓ Group therapy and peer support programs</li>
-
-<li>✓ Stress and anxiety management workshops</li>
-
-<li>✓ Academic pressure and exam stress counseling</li>
-
-<li>✓ Career guidance and personal development</li>
-
+<ul class="space-y-4 text-gray-700 leading-relaxed">
+<li>✔ Confidential one-on-one counseling with licensed professionals</li>
+<li>✔ Group therapy sessions and peer support initiatives</li>
+<li>✔ Workshops on stress, anxiety, and emotional resilience</li>
+<li>✔ Academic and exam-related stress management guidance</li>
+<li>✔ Career counseling and personal growth development</li>
 </ul>
-
 </div>
 
+<!-- Contact Card -->
+<div class="bg-white p-8 rounded-2xl shadow-md border border-gray-100">
 
-<!-- Contact Information -->
-
-<div class="bg-red-50 p-8 rounded-xl">
-
-<h4 class="text-xl font-semibold mb-6">
+<h4 class="text-2xl font-semibold text-gray-800 mb-6">
 Contact & Availability
 </h4>
 
-<div class="space-y-3 text-gray-700">
-
+<div class="space-y-3 text-gray-700 leading-relaxed">
 <p><strong>Location:</strong> Student Wellness Center, Ground Floor</p>
-
-<p><strong>Timing:</strong> Monday - Friday: 9:00 AM - 6:00 PM</p>
-
-<p><strong>Saturday:</strong> 9:00 AM - 2:00 PM</p>
-
-<p><strong>Emergency Hotline:</strong> +91-8866-123-456 (24/7)</p>
-
+<p><strong>Hours:</strong> Monday – Friday: 9:00 AM – 6:00 PM</p>
+<p><strong>Saturday:</strong> 9:00 AM – 2:00 PM</p>
+<p><strong>Emergency Support:</strong> +91-8866-123-456 (24/7)</p>
 <p><strong>Email:</strong> counseling@vignan.ac.in</p>
 
-<p class="italic text-sm text-gray-600 mt-4">
-All sessions are strictly confidential and free for students
+<p class="text-sm text-gray-500 mt-4 italic">
+All counseling services are confidential and provided free of cost to students.
 </p>
-
 </div>
 
 </div>
 
 </div>
 
+<!-- CTA -->
+<div class="mt-16 bg-red-600 text-white p-10 rounded-2xl text-center shadow-lg">
 
-<!-- Call to Action -->
-
-<div class="mt-16 bg-red-100 p-8 rounded-xl text-center">
-
-<p class="text-lg font-medium mb-6">
-Need immediate support? Our AI chatbot can help you schedule appointments instantly!
+<p class="text-xl font-medium mb-6">
+Need immediate support? Use our AI assistant to quickly schedule a counseling session.
 </p>
 
 <button onclick="openChatbot()"
-class="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-lg shadow-md transition">
-
-Talk to AI Assistant Now
-
+class="bg-white text-red-600 font-semibold px-8 py-3 rounded-lg shadow hover:bg-gray-100 transition">
+Talk to AI Assistant
 </button>
 
 </div>
@@ -892,5 +939,71 @@ window.location.href="chatbot.html"
 
 </script>
 
+<script>
+
+lucide.createIcons()
+
+/* BACKGROUND SLIDESHOW */
+
+let slides = document.querySelectorAll(".bg-slide")
+let slideIndex = 0
+
+setInterval(() => {
+
+slides[slideIndex].style.opacity = 0
+slideIndex = (slideIndex + 1) % slides.length
+slides[slideIndex].style.opacity = 1
+
+},4000)
+
+
+
+/* CAROUSEL */
+
+const carousel = document.querySelector(".carousel")
+let index = 0
+
+setInterval(()=>{
+
+index++
+if(index > 4) index = 0
+
+carousel.style.transform = `translateX(-${index * 100}%)`
+
+},3500)
+
+
+
+/* COUNTER ANIMATION */
+
+const counters = document.querySelectorAll(".counter")
+
+counters.forEach(counter => {
+
+const target = +counter.dataset.target
+
+const update = () => {
+
+const value = +counter.innerText
+const increment = target / 100
+
+if(value < target){
+
+counter.innerText = Math.ceil(value + increment)
+setTimeout(update,20)
+
+}else{
+
+counter.innerText = target.toLocaleString()
+
+}
+
+}
+
+update()
+
+})
+
+</script>
 </body>
 </html>

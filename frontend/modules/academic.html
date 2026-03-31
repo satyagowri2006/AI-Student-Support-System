@@ -13,16 +13,103 @@
 
 <body class="bg-gray-50 min-h-screen">
 
-<header class="bg-white shadow p-4 flex justify-between">
+<!-- HEADER -->
 
-<h2 class="text-xl font-bold">Academic Support</h2>
+<header class="bg-white/90 backdrop-blur-md shadow-md sticky top-0 z-50 border-b border-gray-200">
 
+<div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+
+<!-- Logo + Title -->
+
+<div class="flex items-center space-x-3">
+
+<img src="images/AI-logo.png" class="w-12 h-12 object-contain">
+
+<div>
+
+<h1 class="text-lg font-bold text-gray-900 leading-tight">
+Vignan University
+</h1>
+
+<p class="text-xs text-gray-500">
+AI Student Support System
+</p>
+
+</div>
+
+</div>
+
+
+<!-- NAVIGATION -->
+
+<nav class="hidden md:flex items-center space-x-8 text-gray-700 font-medium">
+
+<a href="#aboutVignan"
+class="hover:text-blue-600 relative group">
+
+About
+
+<span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-blue-600 transition-all group-hover:w-full"></span>
+
+</a>
+
+<a href="#programs"
+class="hover:text-blue-600 relative group">
+
+Programs
+
+<span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-blue-600 transition-all group-hover:w-full"></span>
+
+</a>
+
+<a href="#services"
+class="hover:text-blue-600 relative group">
+
+Services
+
+<span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-blue-600 transition-all group-hover:w-full"></span>
+
+</a>
+
+<a href="#campus"
+class="hover:text-blue-600 relative group">
+
+Campus
+
+<span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-blue-600 transition-all group-hover:w-full"></span>
+
+</a>
+
+<a href="#mental"
+class="hover:text-blue-600 relative group">
+
+Counseling
+
+<span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-blue-600 transition-all group-hover:w-full"></span>
+
+</a>
+
+</nav>
 <a href="../index.html" class="bg-gray-200 px-4 py-2 rounded">
 Home
 </a>
 
-</header>
+<!-- CHATBOT BUTTON -->
 
+<button onclick="openChatbot()"
+class="flex items-center space-x-2 bg-blue-600 text-white px-5 py-2.5 rounded-lg hover:bg-blue-700 transition shadow-md hover:shadow-lg">
+
+<i data-lucide="message-circle" class="h-5 w-5"></i>
+
+<span class="font-medium">
+AI Chatbot
+</span>
+
+</button>
+
+</div>
+
+</header>
 
 <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 p-10">
 
