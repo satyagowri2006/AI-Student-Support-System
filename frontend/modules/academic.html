@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Academic Support</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-gray-50 min-h-screen">
+
+<!-- HEADER -->
+
+<header class="bg-white/90 backdrop-blur-md shadow-md sticky top-0 z-50 border-b border-gray-200">
+
+<div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+
+<!-- Logo + Title -->
+
+<div class="flex items-center space-x-3">
+
+<img src="images/AI-logo.png" class="w-12 h-12 object-contain">
+
+<div>
+
+<h1 class="text-lg font-bold text-gray-900 leading-tight">
+Vignan University
+</h1>
+
+<p class="text-xs text-gray-500">
+AI Student Support System
+</p>
+
+</div>
+
+</div>
+
+
+<!-- NAVIGATION -->
+
+<nav class="hidden md:flex items-center space-x-8 text-gray-700 font-medium">
+
+<a href="#aboutVignan"
+class="hover:text-blue-600 relative group">
+
+About
+
+<span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-blue-600 transition-all group-hover:w-full"></span>
+
+</a>
+
+<a href="#programs"
+class="hover:text-blue-600 relative group">
+
+Programs
+
+<span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-blue-600 transition-all group-hover:w-full"></span>
+
+</a>
+
+<a href="#services"
+class="hover:text-blue-600 relative group">
+
+Services
+
+<span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-blue-600 transition-all group-hover:w-full"></span>
+
+</a>
+
+<a href="#campus"
+class="hover:text-blue-600 relative group">
+
+Campus
+
+<span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-blue-600 transition-all group-hover:w-full"></span>
+
+</a>
+
+<a href="#mental"
+class="hover:text-blue-600 relative group">
+
+Counseling
+
+<span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-blue-600 transition-all group-hover:w-full"></span>
+
+</a>
+
+</nav>
+<a href="../index.html" class="bg-gray-200 px-4 py-2 rounded">
+Home
+</a>
+
+<!-- CHATBOT BUTTON -->
+
+<button onclick="openChatbot()"
+class="flex items-center space-x-2 bg-blue-600 text-white px-5 py-2.5 rounded-lg hover:bg-blue-700 transition shadow-md hover:shadow-lg">
+
+<i data-lucide="message-circle" class="h-5 w-5"></i>
+
+<span class="font-medium">
+AI Chatbot
+</span>
+
+</button>
+
+</div>
+
+</header>
+
+<div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 p-10">
+
+<div class="bg-white p-6 rounded-xl shadow">
+
+<h3 class="text-lg font-semibold mb-4">
+Academic Information
+</h3>
+
+<p id="moduleDescription" class="text-gray-600 mb-6"></p>
+
+<ul class="space-y-3 text-gray-700">
+<li>Course registration guidance</li>
+<li>Credit requirements</li>
+<li>Academic calendar</li>
+<li>Exam schedules</li>
+</ul>
+
+</div>
+
+
+<div class="bg-white p-6 rounded-xl shadow">
+
+<h3 class="text-lg font-semibold mb-4">
+Academic AI Assistant
+</h3>
+
+<div id="messages" class="h-72 border rounded p-3 overflow-y-auto mb-4"></div>
+
+<input id="userInput"
+class="w-full border p-3 rounded"
+placeholder="Ask about courses">
+
+<button onclick="sendMessage()"
+class="mt-3 bg-blue-600 text-white px-5 py-2 rounded">
+Send
+</button>
+
+</div>
+
+</div>
+
+<script src="../script.js"></script>
+
+</body>
+</html>
